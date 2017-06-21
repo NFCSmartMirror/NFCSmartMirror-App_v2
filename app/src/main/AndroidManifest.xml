@@ -39,6 +39,14 @@
 
         </service>
 
+        <service android:name=".MyAccessibilityService">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            . . .
+        </service>
+
+
         <receiver android:name="com.mirror.nfc.nfcsmartmirror.IncomingSms">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />

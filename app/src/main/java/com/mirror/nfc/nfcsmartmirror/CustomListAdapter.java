@@ -14,6 +14,8 @@ import java.util.ArrayList;
 /**
  * Created by mukesh on 18/5/15.
  */
+
+
 public class CustomListAdapter extends BaseAdapter {
 
     Context context;
